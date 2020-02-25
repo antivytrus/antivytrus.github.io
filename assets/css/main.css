@@ -3262,6 +3262,14 @@
 	text-decoration: underline;
 }
 
+.from-top {
+	top: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 .middle-image {
 	display: block;
     margin-left: auto;
