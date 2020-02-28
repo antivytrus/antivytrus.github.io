@@ -67,3 +67,16 @@
 function dropdownToggle(){
 	$('#myDropdown').toggleClass('display-dropdown');
 }
+
+$(document).ready(function(){
+	resizeYtDiv();
+});
+
+window.onresize = function(event) {
+	resizeYtDiv();
+}
+
+function resizeYtDiv() {
+	var width = $('#yt-frame').width();
+	$('#yt-frame').css({'height': (width/1.77) + 'px'});
+}

@@ -2213,7 +2213,7 @@
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 3em 0 0;
 				vertical-align: middle;
 			}
 
@@ -2952,7 +2952,7 @@
 /* Banner */
 
 	#banner {
-		padding: 14em 0 12em 0;
+		padding: 8em 0 6em 0;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-position: center bottom;
@@ -2984,7 +2984,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 12em 0 10em 0;
+				padding: 9em 0 7em 0;
 			}
 
 		}
@@ -3280,6 +3280,17 @@
 .img-top-margin {
 	margin-top: 12px;
 	max-width: 100%;
+}
+
+.video {
+	margin-bottom: 16px;
+}
+
+.yt-video {
+	border: 0;
+	width: 80%;
+	height: 100%;
+	max-width: 720px;
 }
 
 .logo-text {
