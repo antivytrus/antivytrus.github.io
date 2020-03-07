@@ -3315,6 +3315,11 @@
 	font-family: "space_grotesklight"
 }
 
+.mynd {
+	max-height: 54px;
+	vertical-align: middle;
+}
+
 .antivytrus-bold {
 	font-family: "space_groteskbold"
 }
